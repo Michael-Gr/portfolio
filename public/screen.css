@@ -6,3 +6,174 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+body li {
+  list-style-type: none;
+}
+
+.header {
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header .top .photo img {
+  border-radius: 4px;
+}
+
+.header .top .textbox {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -15em;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.header .top .symbol p {
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header .bottom ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(1, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.header .bottom li {
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  align-content: space-around;
+  justify-content: center;
+  margin: 10px;
+  width: 175px;
+  height: 150px;
+}
+
+.header .bottom .box1 {
+  background-image: url("box1.png");
+  background-size: cover;
+}
+
+.header .bottom .box2 {
+  background-image: url("box2.png");
+  background-size: cover;
+}
+
+.header .bottom .box3 {
+  background-image: url("Box3.png");
+  background-size: cover;
+}
+
+.header .bottom .box4 {
+  background-image: url("box4.png");
+}
+
+.main {
+  background-color: #100;
+  padding: 10px;
+}
+
+.main .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main article {
+  background-color: #fff;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.main header {
+  background-color: #cacaca;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px 4px 0 0;
+  height: 50px;
+}
+
+.main h3,
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main p {
+  padding-bottom: 35px;
+}
+
+.main .bloglink {
+  position: absolute;
+  bottom: -15px;
+  right: 15px;
+  background-color: hsla(216, 60%, 42%, 1);
+  padding: 10px;
+  border: 1px solid hsla(216, 60%, 42%, 1);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main h2 {
+  margin-top: 300px;
+}
+
+.main h2,
+h5 {
+  color: #fff;
+  text-align: center;
+}
+
+.main .sociallinks {
+  display: flex;
+  margin: 75px 50px;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 0px; /* Why 40px*/
+}
+
+.main .sociallinks a {
+  background-color: hsla(216, 60%, 42%, 1);
+  color: hsla(0, 0%, 100%, 1);
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.main h5 {
+  margin-bottom: 0;
+}
